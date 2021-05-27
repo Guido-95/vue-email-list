@@ -6,25 +6,26 @@
 
 
 #root{
-    background-image: url("../img/sfondo-tablet.jpg");
     height: 100vh;
     width: 70vw;
     margin: auto;
     padding: 20px;
-    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/sfondo-tablet.jpg");
 }
 
 h1{
-    padding: 50px;
-    text-align: center;
-    text-decoration: underline;
-    margin: auto;
-    height: 100px;
-    width: 30%;
-    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+    padding: 50px;
+    height: 100px;
+    width: 30%;
+    border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -44,6 +45,7 @@ button{
     padding: 20px;
     width: 40px;
     height: 40px;
+    border: 1px solid black;
     border-radius: 50%;
 }
 
@@ -63,11 +65,5 @@ li{
     
     font-size: 20px;
     margin: 20px;
-   
-    
-    
-    
-
-    
-   
+ 
 }
