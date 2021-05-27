@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#root{
+    background-image: url("../img/sfondo-tablet.jpg");
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1{
+    padding: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+    height: 100px;
+    width: 30%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tablet{
+    margin: 20px auto;
+    width: 40%;
+    border-radius: 15px;
+    padding: 40px 40px 5px 40px;
+    text-align: center;
+    background-color: rgb(92, 91, 91);
+    border: 1px solid black;
+    
+}
+
+button{
+    margin: 5px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+ul{
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, #c7c7c7 , #d6d1d1);
+}
+
+li{
+    
+    font-size: 20px;
+    margin: 20px;
+   
+    
+    
+    
+
+    
+   
+}
